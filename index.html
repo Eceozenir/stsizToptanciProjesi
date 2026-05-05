@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stsiz — Toptancı & Perakendeci Buluşma Platformu</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">
+    <img src="/img/stsiz_logo.svg" alt="Stsiz Logo" class="nav-logo-img">
+  </a>
+  <div class="nav-links" id="navlinks">
+    <a href="#nasil-calisir">Nasıl Çalışır?</a>
+    <a href="#ozellikler">Özellikler</a>
+    <a href="#neden-stsiz">Neden Stsiz?</a>
+    <a href="#iletisim">İletişim</a>
+  </div>
+  <div class="nav-right">
+    <a href="#" class="btn-login">Giriş Yap</a>
+    <button class="hamburger" id="hamburger" aria-label="Menü">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-badge">
+    <span class="badge-dot"></span>
+    Türkiye'nin Toptancı-Perakendeci Buluşma Platformu
+  </div>
+  <h1>Toptancı mı, perakendeci mi?<br><em>İkisini de bir araya</em> getiriyoruz.</h1>
+  <p class="hero-sub">Stsiz ile bulunduğunuz şehirdeki toptancılara ve perakendecilere anında ulaşın. Sipariş verin, stoklarınızı takip edin, işinizi büyütün.</p>
+  <div class="hero-btns">
+    <a href="https://stsiz.com/accounts/kayitol/" class="btn-primary">Ücretsiz Kaydol ›</a>
+    <a href="#nasil-calisir" class="btn-ghost">Nasıl çalışır?</a>
+  </div>
+  <div class="hero-img-wrap">
+    <img src="/img/stsizBuyukFoto.png" alt="Stsiz Platform" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;">
+  </div>
+</section>
+
+<!-- ── İKİ TARAF ── -->
+<section class="two-sides">
+  <div class="section-inner">
+    <div class="section-tag">Kimin için?</div>
+    <div class="section-title">Hem toptancılar, hem perakendeciler için</div>
+    <p class="section-sub">İki taraf da Stsiz'den farklı ama birbirini tamamlayan güçlü özellikler elde eder.</p>
+    <div class="two-sides-grid">
+
+      <!-- TOPTAN -->
+      <div class="side-card toptan">
+        <div class="side-label">Toptancılar için</div>
+        <h3>Ürünlerinizi sergileyin,<br>siparişlerinizi yönetin</h3>
+        <p>Ürün kataloğunuzu oluşturun, etki alanlarınızı belirleyin ve perakendecilerden gelen siparişleri tek panelden takip edin.</p>
+        <ul class="feature-list">
+          <li><span class="check">✓</span> Şehir ve bölge bazlı etki alanı seçimi</li>
+          <li><span class="check">✓</span> Sınırsız kategori ve ürün yükleme</li>
+          <li><span class="check">✓</span> Sipariş onay, kargo ve teslimat takibi</li>
+          <li><span class="check">✓</span> Perakendeci başvurularını yönetme</li>
+          <li><span class="check">✓</span> Satış ve stok raporları</li>
+        </ul>
+        <img src="/img/toptanci.jpg" alt="Toptancı Paneli" class="side-photo">
+      </div>
+
+      <!-- PERAKENDECİ -->
+      <div class="side-card perak">
+        <div class="side-label">Perakendeciler için</div>
+        <h3>Şehrinizin toptancılarını<br>tek ekrandan keşfedin</h3>
+        <p>Bulunduğunuz şehirdeki tüm toptancılara göz atın, kataloglarını inceleyin ve kolayca sipariş verin.</p>
+        <ul class="feature-list">
+          <li><span class="check">✓</span> Şehir bazlı toptancı listesi</li>
+          <li><span class="check">✓</span> Kategori ve ürün bazlı arama</li>
+          <li><span class="check">✓</span> Kolay sipariş verme ve takip</li>
+          <li><span class="check">✓</span> Sipariş geçmişi ve yineleme</li>
+          <li><span class="check">✓</span> Birden fazla toptancıyla çalışma</li>
+        </ul>
+        <img src="/img/perakendeci.png" alt="Perakendeci Arayüzü" class="side-photo">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── NASIL ÇALIŞIR ── -->
+<section class="how" id="nasil-calisir">
+  <div class="section-inner">
+    <div class="how-header">
+      <div class="section-tag">Nasıl çalışır?</div>
+      <div class="section-title">Başlamak çok kolay</div>
+      <p class="section-sub">Kayıt olmak ücretsiz. Dakikalar içinde aktif olun.</p>
+      <div class="how-tabs">
+        <button class="how-tab active" data-tab="toptan">Toptancı Olarak</button>
+        <button class="how-tab" data-tab="perak">Perakendeci Olarak</button>
+      </div>
+    </div>
+    <div class="how-steps active" id="tab-toptan">
+      <div class="steps-grid">
+        <div class="step-item">
+          <div class="step-circle">1</div>
+          <h4>Toptancı Kaydı Açın</h4>
+          <p>Firma bilgilerinizi girin, hesabınızı oluşturun.</p>
+        </div>
+        <div class="step-item">
+          <div class="step-circle">2</div>
+          <h4>Etki Alanınızı Seçin</h4>
+          <p>Hangi şehirde, hangi kategoride hizmet verdiğinizi belirleyin.</p>
+        </div>
+        <div class="step-item">
+          <div class="step-circle">3</div>
+          <h4>Ürünlerinizi Yükleyin</h4>
+          <p>Kategoriler oluşturun, fiyat ve stok bilgisi ekleyin.</p>
+        </div>
+        <div class="step-item">
+          <div class="step-circle">4</div>
+          <h4>Siparişleri Yönetin</h4>
+          <p>Perakendecilerden gelen siparişleri onaylayın ve takip edin.</p>
+        </div>
+      </div>
+    </div>
+    <div class="how-steps" id="tab-perak">
+      <div class="steps-grid">
+        <div class="step-item">
+          <div class="step-circle">1</div>
+          <h4>Perakendeci Kaydı Açın</h4>
+          <p>Ücretsiz hesabınızı oluşturun, bilgilerinizi girin.</p>
+        </div>
+        <div class="step-item">
+          <div class="step-circle">2</div>
+          <h4>Toptancıları Keşfedin</h4>
+          <p>Şehrinizi seçin, kategori filtresi uygulayın.</p>
+        </div>
+        <div class="step-item">
+          <div class="step-circle">3</div>
+          <h4>Ürün Seçin</h4>
+          <p>Katalogları inceleyin, ihtiyacınız olanları sepete ekleyin.</p>
+        </div>
+        <div class="step-item">
+          <div class="step-circle">4</div>
+          <h4>Siparişi Takip Edin</h4>
+          <p>Onay ve kargo sürecini anlık olarak görün.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ÖZELLİKLER ── -->
+<section class="features" id="ozellikler">
+  <div class="section-inner">
+    <div class="section-tag">Platform Özellikleri</div>
+    <div class="section-title">Tüm ihtiyaçlarınız<br>tek çatı altında</div>
+    <p class="section-sub">Toptancıdan perakendeciye kadar operasyonun her adımını kapsayan güçlü araçlar.</p>
+    <div class="features-grid">
+      <div class="feat-card">
+        <div class="feat-icon">🗺️</div>
+        <h3>Şehir & Bölge Bazlı Eşleşme</h3>
+        <p>Toptancılar etki alanlarını, perakendeciler konumlarını seçerek birbirini kolayca buluyor.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">📦</div>
+        <h3>Esnek Ürün Yönetimi</h3>
+        <p>Sınırsız kategori ve ürün. Stok, fiyat ve varyant yönetimi tam kontrolünüzde.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">🛒</div>
+        <h3>Akıllı Sipariş Takibi</h3>
+        <p>Siparişin oluşmasından teslimata kadar her aşama şeffaf biçimde izleniyor.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">🏪</div>
+        <h3>Çoklu Toptancı Desteği</h3>
+        <p>Perakendeciler birden fazla toptancıyla aynı anda çalışabilir, karşılaştırma yapabilir.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">📊</div>
+        <h3>Detaylı Raporlama</h3>
+        <p>Satış trendleri, en çok satan ürünler, bayi bazlı analizler — hepsi anlık.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">📱</div>
+        <h3>Her Cihazdan Erişim</h3>
+        <p>Masaüstü, tablet ve mobilde kesintisiz çalışan responsive tasarım.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── NEDEN STSİZ ── -->
+<section class="why" id="neden-stsiz">
+  <div class="section-inner">
+    <div class="why-grid">
+      <div class="why-left">
+        <img src="/img/nedenStsiz.png" alt="Neden Stsiz?" class="why-photo">
+      </div>
+      <div class="why-right">
+        <div class="section-tag">Neden Stsiz?</div>
+        <div class="section-title">Sektörü anlayan<br>bir platform</div>
+        <div class="why-items">
+          <div class="why-item">
+            <div class="why-num">1</div>
+            <div>
+              <h4>Aracı yok, komisyon yok</h4>
+              <p>Toptancı ile perakendeci doğrudan buluşuyor. Araya giren kimse yok, gizli ücret yok.</p>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="why-num">2</div>
+            <div>
+              <h4>Konum bazlı akıllı eşleşme</h4>
+              <p>Bulunduğunuz şehre ve sektöre göre en uygun toptancıları otomatik olarak görürsünüz.</p>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="why-num">3</div>
+            <div>
+              <h4>Kurulum yok, hemen başlayın</h4>
+              <p>Tarayıcınızı açın, kaydolun, kullanmaya başlayın. Hiçbir teknik bilgi gerekmez.</p>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="why-num">4</div>
+            <div>
+              <h4>Türkçe destek, her zaman yanınızda</h4>
+              <p>7/24 Türkçe konuşan ekibimizle hızlı çözüm, sorunsuz deneyim.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ── -->
+<section class="cta-section" id="iletisim">
+  <div class="cta-inner">
+    <h2>Şimdi kaydolun,<br>büyümeye başlayın</h2>
+    <p>Toptancı veya perakendeci — kim olursanız olun, Stsiz sizin için burada. Ücretsiz başlayın.</p>
+    <div class="cta-btns">
+      <a href="https://stsiz.com/accounts/kayitol/" class="btn-white">Toptancı Olarak Kaydol</a>
+      <a href="https://stsiz.com/accounts/kayitol/" class="btn-outline-white">Perakendeci Olarak Kaydol</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="#" class="nav-logo">
+        <img src="/img/stsiz_logo.svg" alt="Stsiz Logo" class="nav-logo-img footer-logo-img">
+      </a>
+      <p>Toptancı ve perakendecileri bir araya getiren Türkiye'nin yeni nesil B2B platformu.</p>
+    </div>
+    <div class="footer-links">
+      <h5>Platform</h5>
+      <a href="#">Nasıl Çalışır?</a>
+      <a href="#">Özellikler</a>
+      <a href="#">Fiyatlandırma</a>
+    </div>
+    <div class="footer-links">
+      <h5>Hesap</h5>
+      <a href="#">Giriş Yap</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>Copyright © 2025 - WEBADASI Bilgi Teknolojileri - Tüm hakları saklıdır.</span>
+  </div>
+</footer>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navlinks = document.getElementById('navlinks');
+  hamburger.addEventListener('click', () => {
+    navlinks.classList.toggle('open');
+  });
+  navlinks.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => navlinks.classList.remove('open'));
+  });
+
+  document.querySelectorAll('.how-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.how-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.how-steps').forEach(s => s.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
