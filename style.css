@@ -44,13 +44,14 @@ nav {
   text-decoration: none;
 }
 .nav-logo-img {
-  height: 80px;
+  height: 140px;
   width: auto;
   display: block;
   object-fit: contain;
+  margin-top: 60px;
 }
 .footer-logo-img {
-  height: 60px;
+  height: 140px;
   opacity: 0.85;
   margin-bottom: 10px;
 }
